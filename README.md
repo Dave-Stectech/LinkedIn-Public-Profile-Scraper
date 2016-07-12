@@ -7,6 +7,7 @@ Use Cases:
 - ...more to come
 
 Steps:
+
 1. Edit the search parameters within the "url" variable. 
 
 >> url is a string that is basically a google search query with parameters attached to the end of it that help refine the search. It is important you add the right parameters because this scraper relies heavily on Google's ability to use these parameters to find the person you actually mean. 
