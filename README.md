@@ -1,4 +1,4 @@
-# LinkedIn-URL-Scraper
+# LinkedIn URL Scraper
 
 Overview: Given a list of names and various parameters, one can use this scraper to find the relevant user LinkedIn URLs for each of the names.
 
