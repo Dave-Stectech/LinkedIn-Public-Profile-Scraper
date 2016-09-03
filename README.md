@@ -4,3 +4,4 @@ Overview: Given a list of names and various parameters such as job title and com
 
 Notes:
 - The scraper only digs the top result so if your POI is not the top result then a different LinkedIn username and URL will be pulled. Thus, the benefits of this scraper are to search for a group of people within a known organization. For example, if I wanted to get the LinkedIn URLs for everyone who worked at Uber, then I would get a csv file with columns: first name, last name, and position. Then I read the csv file and use the scraper to append the first name, last name, position, "uber, and "LinkedIn" - these last two being added based on my discretion
+- Average data accuracy through testing: 92% for names belonging to the same company/organization, 76% for randomly-amalgamated list of names (Thus this scraper is probably best used to identify trends rather than get 100% accurate data. For the latter, please see LinkedIn for talent solutions/recruiting products.)
